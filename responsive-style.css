@@ -1,0 +1,71 @@
+@media (max-width:991px){
+
+section{
+padding:30px;
+
+
+}
+h2{
+font-size: 30px;
+line-height:40px;
+
+}
+h3{
+font-size:20px;
+}
+       /* /*navebar // */
+
+
+ .header-scrolled{
+    height: auto;
+ }
+
+ .header-wrapper  .menu-navbar-nav{
+    text-align:center;
+    background-color: rgb(11, 11, 56);
+    padding-bottom: 15px;
+ }
+ .header-wrapper .nav-item .nav-link{
+    margin-top: 15px;
+ }
+                   /* banner wrapper */
+
+ .banner-wrapper{
+   padding: 200px,0
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:767px){
+    h1{
+        font-size:40px;
+        line-height:48px;
+    }
+    h2{
+        font-size:25px;
+    }
+    p{
+        font-size:13px;
+        line-height: 224px;
+    }
+}

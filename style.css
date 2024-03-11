@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+ 
+* {
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+
+
+
+
+
+
+
+.main-btn{
+    display:inline-block;
+    border-radius:30px;
+    transition:all .4s ease-in-out;
+     /* padding:30px,35px;   */
+    background-color:transparent;
+    border:2px solid gray;
+    color: gray;
+    font-weight:500;
+    font-size:15px;
+     padding:10px;
+    letter-spacing:2px;
+    text-decoration:none;
+    margin-top: 1rem;
+}
+
+.main-btn:hover{
+    background-color: coral;
+    border-color: coral;
+    color:white
+}
+
+h1{
+    font-size:54px;
+    line-height:68px;
+    font-weight:800;
+    color:rgb(247, 52, 52);
+    margin-bottom:20px;
+    
+}
+h1 span{
+    color:blue;
+}
+h2{
+    font-size:50px;
+    line-height:1.3px;
+    font-weight:600;
+    color:white;
+    margin-bottom:15px;
+    /* margin-top: 7rem; */
+}
+h3{
+    font-size:20px;
+  
+    font-weight:600;
+    color:white;
+    margin-bottom:19px;
+}
+h6{
+    font-size:16px;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  display:block;
+    font-weight:600;
+    color:gray;
+    margin-bottom:5px;
+margin-top: 7rem;
+}
+p{
+    color:gray;
+    font-size:16px;
+    line-height:28px;
+    letter-spacing:1px;
+    font-weight:400;
+
+}
+.subtitle{
+    display:inline-block;
+    font-weight:600;
+    letter-spacing:0.5px;
+    line-height:18px;
+    font-size:16px;
+    margin-bottom:3rem;
+    background: rgb(255, 124, 16);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+   
+}
+input:hover,
+input:focus,
+textarea:focus,
+textarea:hover,
+button{
+    outline:none !important;
+    box-shadow:none !important;
+}
+
+    /* navbar // */
+ 
+
+ .header-wrapper .navbar{
+        padding: 15px 0;
+        -webkit-transition:all .2s linear;
+        -o-transition:all .2s linear;
+        transition:all .2s linear;
+ }
+ 
+ .header-wrapper .navbar-brand img{
+        max-width:120px;
+        height:auto;
+ }
+
+ .header-wrapper .navbar-toggler{
+    border:0;
+    color:gray;
+    line-height: 2;
+ }
+ .header-wrapper .navbar-toggler:focus{
+    box-shadow:none;
+ }
+
+ .header-wrapper .nav-item{
+    margin: 0px 10px;
+ }
+ .header-wrapper .nav-item .nav-link{
+    position:relative;
+    font-size:16px;
+    font-weight: 500;
+    color:gray;
+    display:inline block;
+
+ }
+
+ .header-wrapper .nav-item .nav-link::after{
+    position:absolute;
+    content:'';
+    left:0;
+    width: 0;
+    height: 2px;
+    background: rgb(221, 21, 7);
+    transition:0.3s;
+    bottom:0;
+ }
+
+ .header-wrapper .nav-item .nav-link.active::after,
+ .header-wrapper .nav-item .nav-link:hover::after{
+     width:100%;
+     }
+
+ 
+     .header-wrapper .nav-item .nav-link.active,
+     .header-wrapper .nav-item .nav-link:hover{
+              color:white
+     }
+     .header-scrolled{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        background-color: rgb(9, 9, 27);
+       -webkit-box-shadow: 0,4px,6px,0 rgb(9, 9, 54);
+        box-shadow: 0, 4px,6px, 0 rgba(1, 0, 5, 0.5);
+     }
+
+     .header-scrolled.nav-item .nav-link.active,
+     .header-scrolled.nav-item .nav-link:hover{
+              color:rgb(235, 82, 22)
+     }  
+
+                               /* banner   */
+
+  .banner-wrapper{
+    width:100%;
+    height:auto;
+    min-height: 1000px;
+    background-image: url(./images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px,0,100px,0;
+
+  }
+
+  .about-wrapper ul.nav-pills{
+    border:1px solid gray;
+    border-radius: 50px;
+
+  }
+
+  .about-wrapper ul li.nav-link{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition:all 0.45s cubic-bezier(0,0,0,2,1);
+    display:inline-block;
+    color:gray;
+    border:0;
+  }
+
+  .about-wrapper ul li .nav-link.active{
+    background-color: rgb(231, 87, 20);
+    border-radius: 50px;
+  }
+
+  .about-wrapper .single-progress{
+    margin-top: 5px;
+    position: relative;
+    overflow:hidden;
+  }
+
+  .about-wrapper .single-progress .progress{
+    height: 4px;
+    border-radius: 4px;
+    box-shadow:none;
+    background-color: white;
+    overflow: visible;
+  }
